@@ -5,6 +5,7 @@ using UnityEngine;
 public class LifeExtender : MonoBehaviour
 {
     public GameObject LifeMGMT;
+    public float value = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class LifeExtender : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            LifeMGMT.transform.SendMessage("GrantLife", 5f);
+            LifeMGMT.transform.SendMessage("GrantLife", value);
             Destroy(gameObject);
         }
     }

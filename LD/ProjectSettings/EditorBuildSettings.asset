@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/lavaroom1/lavaroom3.unity
     guid: cf49b86c2292e254aa93de47f6ab53dd
+  - enabled: 1
+    path: Assets/lavaroom1/lavaroom4.unity
+    guid: 3cd7a8d4d3212aa488514e348fc69331
   m_configObjects: {}

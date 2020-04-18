@@ -8,7 +8,8 @@ public class LifeMGMT : MonoBehaviour
     public Text lifeDisplay;
     public GameObject MGMT;
     public float totallife = 10f;
-    public float notch = 10f;
+    public float notch = 8f;
+    public float lifeSpeed = 1f; 
     public AudioSource speaker;
     public AudioSource GrantSpeaker;
     // Start is called before the first frame update
@@ -20,16 +21,13 @@ public class LifeMGMT : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        totallife -= Time.deltaTime;
+        totallife -= lifeSpeed * Time.deltaTime;
         if(totallife <= 0)
         {
             MGMT.transform.SendMessage("died");
         }else if(totallife <= notch)
         {
-            if (notch <= 9)
-            {
                 speaker.Play();
-            }
                 notch -= 1 - (0.1f * (10 - totallife));
             
         }

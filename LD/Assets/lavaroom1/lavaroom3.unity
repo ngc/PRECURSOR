@@ -1678,12 +1678,12 @@ PrefabInstance:
     - target: {fileID: 5911229751672814628, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.98
+      value: -7.28
       objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814628, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.57
+      value: -3.98
       objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814628, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
@@ -1760,6 +1760,11 @@ PrefabInstance:
       propertyPath: MGMT
       value: 
       objectReference: {fileID: 330879045}
+    - target: {fileID: 5911229751672814651, guid: f57f34efbe5e33a4fba6e887c5208f6f,
+        type: 3}
+      propertyPath: SceneToLoad
+      value: lavaroom4
+      objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814654, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: m_Name
