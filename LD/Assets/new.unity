@@ -812,6 +812,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 436285364}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: dialog.Array.data[1]
+      value: OR RISK LOSING IT FOREVER
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: dialog.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33b283a135085c444ae0d32b3f29e4c7, type: 3}
 --- !u!1001 &6565594915699336077

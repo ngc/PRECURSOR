@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MGMT: {fileID: 330879045}
-  speed: 1
+  speed: 0.5
   closeDirUpLeft: 1
   vert: 1
 --- !u!61 &1115686839
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MGMT: {fileID: 330879045}
-  speed: 1
+  speed: 0.5
   closeDirUpLeft: 0
   vert: 1
 --- !u!1001 &1926201941
