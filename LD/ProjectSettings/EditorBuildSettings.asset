@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/lavaroom1.unity
+    path: Assets/lavaroom1/lavaroom1.unity
     guid: 1df9ba2d4bf60c2428b022b20ad7d5bc
   - enabled: 1
     path: Assets/new.unity
     guid: cdd892ccbc7d5504989987aa06c58614
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/cf1c70980897a9949be021a1b997655b
+    guid: cf1c70980897a9949be021a1b997655b
+  - enabled: 1
+    path: Assets/lavaroom1/lavaroom2.unity
+    guid: 9754c23adceb28f4eaad0d7336d40e3d
   m_configObjects: {}
