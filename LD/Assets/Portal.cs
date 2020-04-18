@@ -6,6 +6,7 @@ public class Portal : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject MGMT;
+    public string SceneToLoad = "";
     void Start()
     {
         
@@ -13,11 +14,8 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        MGMT.transform.SendMessage("Portaled");
-        if (collision.name == "MousePuppet")
-        {
-            
-        }
+        MGMT.transform.SendMessage("Portaled", SceneToLoad);
+        
     }
 
     // Update is called once per frame

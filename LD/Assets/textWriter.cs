@@ -22,16 +22,18 @@ public class textWriter : MonoBehaviour
 
     private IEnumerator TypeWrite(string text, Text body)
     {
-        
-        foreach(char character in text.ToCharArray())
+
+        foreach (char character in text.ToCharArray())
         {
-            if(counter == text.Length - 1)
+            if (counter == text.Length - 1)
             {
                 gameMGMT.transform.SendMessage("done");
             }
             current += character;
             body.text = current;
+            if (character != ' ') { 
             speaker.Play();
+        }
             yield return new WaitForSeconds(gap);
             counter++;
 

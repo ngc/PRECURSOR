@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2801994922295329997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4459316272265387484, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_Name
+      value: GameMGMT Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1043336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2632783
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 52.159786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387485, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: messageMGMT
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: dialog.Array.data[0]
+      value: MAKE IT TO THE OTHER SIDE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: dialog.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
+        type: 3}
+      propertyPath: dialog.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 33b283a135085c444ae0d32b3f29e4c7, type: 3}

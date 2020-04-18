@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MGMT : MonoBehaviour
 {
@@ -40,9 +42,14 @@ public class MGMT : MonoBehaviour
         timeAtEnd = Time.time;
     }
 
-    void Portaled()
+    void died()
     {
-        Debug.Log("PORTAL");
+        SceneManager.LoadScene("new", LoadSceneMode.Single);
+    }
+
+    void Portaled(string scene)
+    {
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 
 }
