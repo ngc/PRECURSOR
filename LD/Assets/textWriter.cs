@@ -10,21 +10,12 @@ public class textWriter : MonoBehaviour
     public string current = "";
     public GameObject gameMGMT;
     int counter = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
+    public AudioSource speaker;
+    
     void write(string t)
     {
+        message.text = "";
+        current = "";
         StartCoroutine(TypeWrite(t, message));
         counter = 0;
     }
@@ -40,11 +31,11 @@ public class textWriter : MonoBehaviour
             }
             current += character;
             body.text = current;
+            speaker.Play();
             yield return new WaitForSeconds(gap);
             counter++;
 
         }
-
 
     }
 
