@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/spike/spikeroom4.unity
     guid: 4c5c5ba8dc879b046ae2f8f5500b41fd
+  - enabled: 1
+    path: Assets/email/end.unity
+    guid: f9de591b92fb05445a85dcc4911ed5ff
   m_configObjects: {}
