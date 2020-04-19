@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 14
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 10
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 6
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &249547593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1681,12 +1681,12 @@ PrefabInstance:
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.3
+      value: 4.79
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.64
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &367244475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3720,7 +3720,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &640852745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3868,12 +3868,12 @@ PrefabInstance:
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.11
+      value: 1.39
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: -0.47
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
@@ -3947,12 +3947,12 @@ PrefabInstance:
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.16
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.08
+      value: 2.07
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
@@ -4337,7 +4337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 8
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -4592,7 +4592,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &753517756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5133,12 +5133,12 @@ PrefabInstance:
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2418294
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1036386
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
@@ -5211,7 +5211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 4
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -5930,12 +5930,12 @@ PrefabInstance:
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.78
+      value: -1.93
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.06
+      value: -0.51
       objectReference: {fileID: 0}
     - target: {fileID: 1607525533515848663, guid: ca14d7786839b9244959b5140323eea4,
         type: 3}
@@ -7222,7 +7222,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1437367073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7451,7 +7451,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1476986231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7828,7 +7828,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1578210241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8954,7 +8954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 16
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 0
@@ -8962,7 +8962,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1739513103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9109,7 +9109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 8
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 0
@@ -9117,7 +9117,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1750759008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9501,7 +9501,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1786144985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9988,7 +9988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 12
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -10143,7 +10143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 12
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 0
@@ -10151,7 +10151,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1847350386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10441,7 +10441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MGMT: {fileID: 1696818824}
-  SceneToLoad: spikeroom2
+  SceneToLoad: spikeroom4
 --- !u!1 &1864257190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5369585254491887009, guid: e8db939c77b1e6b45a2b8cbd2422ab78,
@@ -10474,7 +10474,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1864257193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10843,7 +10843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 10
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 0
@@ -10851,7 +10851,7 @@ MonoBehaviour:
   endPoint: {x: 10, y: -5, z: 9}
   speaker: {fileID: 27319896}
   cast: {fileID: 0}
-  randomMode: 0
+  randomMode: 1
 --- !u!61 &1917378438
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10998,7 +10998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 489bfef4b4387e14b8a05d85561db6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeatActivation: 16
+  timeatActivation: 1000
   castView: {fileID: 0}
   MGMT: {fileID: 0}
   isHorizontal: 1
@@ -11610,7 +11610,7 @@ PrefabInstance:
     - target: {fileID: 2495138049122609886, guid: 6472f62ab1df8044bbc1db88ac3a2e0d,
         type: 3}
       propertyPath: gap
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6472f62ab1df8044bbc1db88ac3a2e0d, type: 3}
@@ -11621,11 +11621,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4930994180031751568, guid: 985f476f0164a274aa330f9a9c6f8363,
-        type: 3}
-      propertyPath: m_AutoTiling
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4930994180031751568, guid: 985f476f0164a274aa330f9a9c6f8363,
         type: 3}
       propertyPath: m_Offset.x
@@ -11778,7 +11773,7 @@ PrefabInstance:
     - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
         type: 3}
       propertyPath: dialog.Array.data[1]
-      value: <------
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
         type: 3}
@@ -11788,7 +11783,7 @@ PrefabInstance:
     - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
         type: 3}
       propertyPath: dialog.Array.data[0]
-      value: YOU WILL SPAWN HERE NOW
+      value: '...'
       objectReference: {fileID: 0}
     - target: {fileID: 4459316272265387486, guid: 33b283a135085c444ae0d32b3f29e4c7,
         type: 3}

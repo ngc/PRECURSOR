@@ -20,6 +20,7 @@ public class MGMT : MonoBehaviour
     public float portalTime = 5f;
     public Text portalText;
     public GameObject portal;
+    public AudioSource speaker;
     private float displayValue;
 
     void NextMessage()
@@ -49,9 +50,9 @@ public class MGMT : MonoBehaviour
         {
             displayValue = portalTime - Time.timeSinceLevelLoad;
             portalText.text = "EXIT:" + (Mathf.Clamp(displayValue, 0, Mathf.Infinity)).ToString();
-            if((portalTime - Time.timeSinceLevelLoad) <= 0)
+            if((portalTime - Time.timeSinceLevelLoad) <= 0 && !portal.active)
             {
-                Debug.Log("asdfasdfs");
+                speaker.Play();
                 portal.SetActive(true);
             }
         }

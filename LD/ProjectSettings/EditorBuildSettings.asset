@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/new.unity
     guid: cdd892ccbc7d5504989987aa06c58614
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/cf1c70980897a9949be021a1b997655b
-    guid: cf1c70980897a9949be021a1b997655b
   - enabled: 1
     path: Assets/lavaroom1/lavaroom2.unity
     guid: 9754c23adceb28f4eaad0d7336d40e3d
@@ -32,4 +29,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/lavaroom1/lavaroom5.unity
     guid: e3a7ef8b68439c841823ce58250b8de5
+  - enabled: 1
+    path: Assets/spike/spikeroom1.unity
+    guid: e1170513cd9921c449624e6c5d55060c
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/d75e7ede9dcdee345b18b1dfa230920b
+    guid: d75e7ede9dcdee345b18b1dfa230920b
+  - enabled: 1
+    path: Assets/spike/spikeroom3.unity
+    guid: dbecf1791eec7ce478173b0e54933a98
+  - enabled: 1
+    path: Assets/spike/spikeroom2.unity
+    guid: 72b6cc178d767db4c92eec91891fc40a
+  - enabled: 1
+    path: Assets/lavaroom1/lavaroom8.unity
+    guid: ad2a870ac9ba3ba4487359ee162686d4
   m_configObjects: {}
