@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         float angle = (Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg) - 90f;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
