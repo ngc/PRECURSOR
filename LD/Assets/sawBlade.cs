@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class sawBlade : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool Activated = false;
 
+    private void Start()
+    {
+        gameObject.GetComponent<Lava>().enabled = false;
+    }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(Vector3.back * 300 * Time.deltaTime);
+        if (Activated)
+        {
+            transform.Rotate(Vector3.back * 300 * Time.deltaTime);
+            gameObject.GetComponent<Lava>().bladeActive = true;
+        }
+        else
+        {
+            gameObject.GetComponent<Lava>().bladeActive = false;
+        }
+        
 
     }
+
 }

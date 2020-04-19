@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/lavaroom1/lavaroom8.unity
     guid: ad2a870ac9ba3ba4487359ee162686d4
+  - enabled: 1
+    path: Assets/email/email battle.unity
+    guid: 8eb13316bce4c984199e050599d81d08
+  - enabled: 1
+    path: Assets/spike/spikeroom4.unity
+    guid: 4c5c5ba8dc879b046ae2f8f5500b41fd
   m_configObjects: {}

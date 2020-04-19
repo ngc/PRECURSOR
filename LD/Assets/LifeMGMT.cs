@@ -43,7 +43,7 @@ public class LifeMGMT : MonoBehaviour
     private void FixedUpdate()
     {
         
-        lifeDisplay.text = "LIFE:" + totallife.ToString().Substring(0, 4);
+        lifeDisplay.text = "LIFE:" + totallife.ToString();
     }
 
 }

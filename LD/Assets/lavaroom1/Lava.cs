@@ -9,6 +9,8 @@ public class Lava : MonoBehaviour
     public float speed = 1f;
     public bool closeDirUpLeft = true;
     public bool vert = true;
+    public bool isBlade = false;
+    public bool bladeActive = false;
     void Start()
     {
         
@@ -45,7 +47,13 @@ public class Lava : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        MGMT.transform.SendMessage("died");
+        if (collision.tag == "Player" && !isBlade)
+        {
+            MGMT.transform.SendMessage("died");
+        }else if(collision.tag == "Attacker" && bladeActive)
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
 }
