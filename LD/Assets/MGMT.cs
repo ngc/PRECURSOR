@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices;
+
 
 
 public class MGMT : MonoBehaviour
@@ -11,8 +13,9 @@ public class MGMT : MonoBehaviour
     public string[] dialog = new string[] { "YOU WILL BE TESTED", "MAKE IT TO THE OTHER SIDE" };
     public bool writing = false;
     public float timeAtEnd = 0f;
-    // Start is called before the first frame update
-  
+    public string startLevel = "new";
+    public bool differentStart = false;
+
     void NextMessage()
     {
         writing = true;
@@ -44,7 +47,7 @@ public class MGMT : MonoBehaviour
 
     void died()
     {
-        SceneManager.LoadScene("new", LoadSceneMode.Single);
+        SceneManager.LoadScene(startLevel, LoadSceneMode.Single);
     }
 
     void Portaled(string scene)
