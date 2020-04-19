@@ -9,6 +9,7 @@ public class SpikeWall : MonoBehaviour
     private float startTime = 0f;
     private float startTime2;
     public GameObject castView;
+    public GameObject MGMT;
     public bool isHorizontal = true;
     public float speed = 1f;
     private Vector3 startPoint;
@@ -17,10 +18,12 @@ public class SpikeWall : MonoBehaviour
     private float lengthofTravel = 0f;
     private float fractionOfJourney;
     private float distCovered;
+    private float timeOffset;
 
-    // Start is called before the first frame update
     void Start()
     {
+        timeOffset = Time.timeSinceLevelLoad;
+        MGMT = GameObject.Find("GameMGMT");
         originalTA = timeatActivation;
         castView = transform.GetChild(1).gameObject;
         startPoint = transform.position;
@@ -35,41 +38,47 @@ public class SpikeWall : MonoBehaviour
         lengthofTravel = Vector3.Distance(startPoint, endPoint);
     }
 
-    // Update is called once per frame
     void Update()
     {
 
-        if (timeatActivation - Time.time <= 0f && timeatActivation - Time.time > -6f)
+        if (timeatActivation - Time.timeSinceLevelLoad <= 0f && timeatActivation - Time.timeSinceLevelLoad > -6f)
         {
-            distCovered = (Time.time - startTime) * 150f * speed;
+            distCovered = (Time.timeSinceLevelLoad - startTime) * 150f * speed;
             fractionOfJourney = distCovered / lengthofTravel;
             transform.position = Vector3.Lerp(startPoint, endPoint, fractionOfJourney);
-            startTime2 = Time.time;
-        }else if(timeatActivation - Time.time <= -6f && timeatActivation - Time.time > -9f)
+            startTime2 = Time.timeSinceLevelLoad;
+        }else if(timeatActivation - Time.timeSinceLevelLoad <= -6f && timeatActivation - Time.timeSinceLevelLoad > -9f)
         {
-            distCovered = (Time.time - startTime2) * 150f * speed;
+            distCovered = (Time.timeSinceLevelLoad - startTime2) * 150f * speed;
             Mathf.Clamp(distCovered, 0, Mathf.Infinity);
             lengthofTravel = Vector3.Distance(endPoint, startPoint);
             fractionOfJourney = distCovered / lengthofTravel;
             transform.position = Vector3.Lerp(endPoint, startPoint, fractionOfJourney);
-        }else if(timeatActivation - Time.time <= -9f)
+        }else if(timeatActivation - Time.timeSinceLevelLoad <= -9f)
         {
-            timeatActivation = Time.time + originalTA;
+            timeatActivation = Time.timeSinceLevelLoad + originalTA;
         }
-        }
+    }
 
-    
-
+   
     private void FixedUpdate()
     {
-        if(timeatActivation - Time.time <= 3 && timeatActivation - Time.time > 0)
+        if(timeatActivation - Time.timeSinceLevelLoad <= 3 && timeatActivation - Time.timeSinceLevelLoad > 0)
         {
             castView.SetActive(true);
-            startTime = Time.time;
+            startTime = Time.timeSinceLevelLoad;
         }
         else
         {
             castView.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            MGMT.transform.SendMessage("died");
         }
     }
 

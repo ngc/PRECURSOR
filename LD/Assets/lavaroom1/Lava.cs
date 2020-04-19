@@ -21,21 +21,21 @@ public class Lava : MonoBehaviour
         {
             if (closeDirUpLeft)
             {
-                transform.Translate(Vector2.up * 0.07f * speed * Time.deltaTime);
+                transform.Translate(Vector3.up * 0.07f * speed * Time.deltaTime);
             }
             else
             {
-                transform.Translate(Vector2.down * 0.07f * speed * Time.deltaTime);
+                transform.Translate(Vector3.down * 0.07f * speed * Time.deltaTime);
             }
         }
         else
         {
             if (closeDirUpLeft) {
-                transform.Translate(Vector2.left * 0.07f * speed * Time.deltaTime) ;
+                transform.Translate(Vector3.left * 0.07f * speed * Time.deltaTime) ;
         }
             else
         {
-            transform.Translate(Vector2.right * 0.07f * speed * Time.deltaTime);
+            transform.Translate(Vector3.right * 0.07f * speed * Time.deltaTime);
         }
 
     }
