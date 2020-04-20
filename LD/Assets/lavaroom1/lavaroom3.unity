@@ -1802,7 +1802,7 @@ PrefabInstance:
     - target: {fileID: 5911229751672814651, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: SceneToLoad
-      value: lavaroom4
+      value: lavaroom31
       objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814654, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}

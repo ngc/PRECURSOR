@@ -10,10 +10,17 @@ AudioImporter:
     compressionFormat: 2
     quality: 1
     conversionMode: 0
-  platformSettingOverrides: {}
+  platformSettingOverrides:
+    13:
+      loadType: 0
+      sampleRateSetting: 2
+      sampleRateOverride: 44100
+      compressionFormat: 7
+      quality: 1
+      conversionMode: 0
   forceToMono: 0
   normalize: 1
-  preloadAudioData: 1
+  preloadAudioData: 0
   loadInBackground: 0
   ambisonic: 0
   3D: 1

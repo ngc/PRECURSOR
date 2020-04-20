@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/email/end.unity
     guid: f9de591b92fb05445a85dcc4911ed5ff
+  - enabled: 1
+    path: Assets/lavaroom1/lavaroom31.unity
+    guid: e576facdce67e7d46b65b2e462063434
   m_configObjects: {}
