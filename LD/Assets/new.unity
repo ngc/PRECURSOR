@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 156262987}
   m_Layer: 0
   m_Name: Music
-  m_TagString: Untagged
+  m_TagString: Crosser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,7 +150,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 321d5f45efcdf40478ba048f349ebde3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.204
+  m_Volume: 0.11
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1029,7 +1029,7 @@ PrefabInstance:
     - target: {fileID: 975815140567843531, guid: 4334a7110aa2c9543a6dbccb884b559b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.83
+      value: -0.69
       objectReference: {fileID: 0}
     - target: {fileID: 975815140567843531, guid: 4334a7110aa2c9543a6dbccb884b559b,
         type: 3}

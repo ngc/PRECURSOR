@@ -15,8 +15,9 @@ public class SearchScript : MonoBehaviour
     public bool spawningNow = false;
     public int spawnNum = 3;
     private int index = 0;
-    private char[] letters = new char[7] { 'L', '4', 'T', '9', '6', 'Z', 'B' };
+    private char[] letters = new char[5] { 'L', '4', 'T', '9', '6'};
     private GameObject[] blades = new GameObject[9];
+    public GameObject battleCont;
 
     private float lastTimeSaw;
     private int selector = 0;
@@ -24,9 +25,11 @@ public class SearchScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        battleCont.SetActive(false);
         for(int i = 0; i < 9; i++)
         {
             blades[i] = transform.GetChild(i).gameObject;
+            blades[i].SetActive(false);
         }
         
     }
@@ -41,9 +44,11 @@ public class SearchScript : MonoBehaviour
             if (Time.time > lastTimeSaw)
             {
                 blades[selector].GetComponent<sawBlade>().Activated = false;
+                blades[selector].GetComponent<AudioSource>().Stop();
                 selector = Random.Range(0, 9);
+                blades[selector].GetComponent<AudioSource>().Play();
                 blades[selector].GetComponent<sawBlade>().Activated = true;
-                lastTimeSaw = Time.time + 7;
+                lastTimeSaw = Time.time + 11;
             }
 
             if (Time.time > lastTime)
@@ -55,7 +60,7 @@ public class SearchScript : MonoBehaviour
                     Instantiate(Attacker, new Vector3(Random.Range(-10, 10), 6, 0), Quaternion.identity);
                     Instantiate(Attacker, new Vector3(Random.Range(-10, 10), -6, 0), Quaternion.identity);
                 }
-                if (index % 2 == 0 && index < 15)
+                if (index % 2 == 0 && index < 11)
                 {
                     lettersDisplay.text += letters[index / 2];
                 }
@@ -67,7 +72,7 @@ public class SearchScript : MonoBehaviour
 
     void search(string input)
     {
-        if(input == "L4T96ZB")
+        if(input == "L4T96")
         {
             SceneManager.LoadScene("end", LoadSceneMode.Single);
         }
@@ -75,6 +80,11 @@ public class SearchScript : MonoBehaviour
         {
             if (!firstWrong)
             {
+                battleCont.SetActive(true);
+                for(int i = 0; i < 9; i++)
+                {
+                    blades[i].SetActive(true);
+                }
                 spawnEvent();
                 firstWrong = true;
             }

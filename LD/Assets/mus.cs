@@ -8,7 +8,15 @@ public class mus : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        if(GameObject.FindGameObjectsWithTag("Crosser").Length > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+
     }
 
     void Start()
