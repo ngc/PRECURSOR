@@ -276,6 +276,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &300668272
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -389,7 +391,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &507116659 stripped
 GameObject:
@@ -413,6 +415,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 1
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &507116661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -461,6 +465,8 @@ MonoBehaviour:
   speed: 0.65
   closeDirUpLeft: 1
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &852477442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -686,6 +692,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1340948632
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -989,6 +997,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 1
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1594880882
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1361,6 +1371,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 1
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1642710639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1409,6 +1421,8 @@ MonoBehaviour:
   speed: 19.5
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1801745325
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1542,6 +1556,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1809445243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1616,6 +1632,8 @@ MonoBehaviour:
   speed: 18
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!1001 &1926201941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1877,6 +1895,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &2064552826
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2074,6 +2094,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2665129438363787266, guid: f57f34efbe5e33a4fba6e887c5208f6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665129438363787266, guid: f57f34efbe5e33a4fba6e887c5208f6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.74
+      objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814628, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: m_LocalPosition.x

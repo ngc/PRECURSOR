@@ -4975,6 +4975,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &223578383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5163,6 +5165,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &358886617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5270,7 +5274,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542086654 stripped
 GameObject:
@@ -5294,6 +5298,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &542086656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5342,6 +5348,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &571479040
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5390,6 +5398,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &583590940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5783,6 +5793,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &781754535
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5837,6 +5849,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &819852295
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15977,6 +15991,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1146283384
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16207,6 +16223,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1397964024
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16425,6 +16443,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1415968378
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21555,6 +21575,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1682245582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21603,6 +21625,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1695792502
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21736,6 +21760,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1745323365
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21784,6 +21810,8 @@ MonoBehaviour:
   speed: 6
   closeDirUpLeft: 0
   vert: 1
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &1843005588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21901,6 +21929,8 @@ MonoBehaviour:
   speed: 0
   closeDirUpLeft: 0
   vert: 0
+  isBlade: 0
+  bladeActive: 0
 --- !u!61 &2030397861
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22252,6 +22282,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2665129438363787266, guid: f57f34efbe5e33a4fba6e887c5208f6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665129438363787266, guid: f57f34efbe5e33a4fba6e887c5208f6f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.35
+      objectReference: {fileID: 0}
     - target: {fileID: 5911229751672814628, guid: f57f34efbe5e33a4fba6e887c5208f6f,
         type: 3}
       propertyPath: m_LocalPosition.x
